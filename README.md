@@ -27,7 +27,7 @@ sudo sh start.sh <br><br>
 실행 가능 운영체제 : Ubuntu 16.04 LTS 이상 <br><br>
 우분투 운영체제 버전이 Ubuntu 16.04 LTS 이하인 경우 업그레이드를 진행 하신후 마냐디완s를 실행해 주시기 바랍니다.
 # 주의 사항
-마냐디완 s PRO 프로그램을 실행하면 sysctl.conf (리눅스 커널 설정 파일), rules.v4 (iptables 설정 파일)이 /etc/bu 폴더에 백업됩니다. <br><br>
+마냐디완 s PRO 프로그램을 실행하면 sysctl.conf (리눅스 커널 설정 파일), rules.v4 (iptables 설정 파일)이 /etc/backup 폴더에 백업됩니다. <br><br>
 
 이프로그램(마냐디완 s PRO)을 실행하여 발생한 피해는 책입지지 않습니다. <br><br> 적용이 완료되면 시스템을 재부팅합니다. <br><br>
     오류가있을 경우 dpkg --configure -a 입력해주세요. <br><br>
@@ -37,7 +37,7 @@ sudo sh up.sh <br><br>
 sudo cd /etc/dp/ <br><br>
 sudo sh start.sh <br><br>
 # 도움을 주신분
-<a href="https://github.com/danieluhm">다날</a> [ sysctl.conf (리눅스 커널 설정 파일), rules.v4 (iptables 설정 파일) 백업 및 파일 수정 방식 변경(덮어씌우는 방식에서 내용을 추가하는 방법) 제안하셨습니다. ] <br><br>
+<a href="https://github.com/danieluhm">다날</a> [ rules.v4 (iptables 설정 파일) 백업 및 파일 수정 방식 변경(덮어씌우는 방식에서 내용을 추가하는 방법) 제안하셨습니다. ] <br><br>
 # 적용된 서버 
 <a href="https://cov19.kr/free">cov19.kr</a> ( https://blog.naver.com/againhayggg/221845922317 ) <br><br>
 
