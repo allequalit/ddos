@@ -24,20 +24,6 @@ cat rules.v4 >> /etc/iptables/rules.v4
 # rules.v4 (iptables 설정 파일)에 내용을 추가합니다.
 # tcp 기반 디도스공격을 완화 및 ICMP등을 차단합니디.
 
-apt-get install zram-config -y
-
-#zram 설치
-
-fallocate -l 3G /swapspace
-chmod 600 /swapspace
-mkswap /swapspace
-swapon /swapspace
-
-# 디스크 여유 공간이 12기가 이하이거나 가상메모리를 추가를 원하지 않는 경우 31~34번째 줄을 지워주세요.
-
-apt-get autoremove -y
-
-# 불필요한 패키지를 제거 합니다.
 
 sudo reboot
 
