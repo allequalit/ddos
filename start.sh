@@ -2,7 +2,7 @@ apt-get update
 
 # 업데이트 목록을 갱신합니다
 
-cat sysctl.conf >> /etc/sysctl.conf
+rm /etc/sysctl.conf;cp sysctl.conf /etc/
 
 # /etc/sysctl.conf/ (리눅스 커널 설정 파일)에 내용을 추가합니다.
 # 네트워크 최적화 및 성능 최적화, ip스푸핑 방어, tcpbbr(https://cloud.google.com/blog/products/gcp/tcp-bbr-congestion-control-comes-to-gcp-your-internet-just-got-faster),
