@@ -12,7 +12,7 @@ done
 mkdir /etc/backup/;
 cp /etc/sysctl.conf /etc/backup/;cp /etc/iptables/rules.v4 /etc/backup/
 
-# sysctl.conf (리눅스 커널 설정 파일), rules.v4 (iptables 설정 파일)을 /etc/bu 폴더에 백업합니다.
+# sysctl.conf (리눅스 커널 설정 파일), rules.v4 (iptables 설정 파일)을 /etc/backup 폴더에 백업합니다.
 # 백업 폴더 위치 : /etc/bu/
 
 apt-get update 
