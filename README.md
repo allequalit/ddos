@@ -21,7 +21,7 @@ sudo sh start.sh <br><br>
 # 한국어 (Korean)
 
 # 마냐디완 S PRO (마냐 디도스 완화 .sh PRO) 
-한번의 실행으로 디도스에 많이 사용되는 중국, 프랑스, 브라질, O**, re*****es***, 알*** 클***, 아이피주소 차단, 디도스 완화, Zram, 네트워크 최적화, tcpbbr (https://cloudblog.withgoogle.com/products/gcp/tcp-bbr-congestion-control-comes-to-gcp-your-internet-just-got-faster/amp/) 등을 적용해주는 프로그램(.sh) 입니다. <br><br>
+한번의 실행으로 디도스에 많이 사용되는 중국, 프랑스, O**, re*****es***, 알*** 클***, 아이피주소 차단, 디도스 완화, Zram, 네트워크 최적화, tcpbbr (https://cloudblog.withgoogle.com/products/gcp/tcp-bbr-congestion-control-comes-to-gcp-your-internet-just-got-faster/amp/) 등을 적용해주는 프로그램(.sh) 입니다. <br><br>
 마냐디완 s LIGHT 버전에 비해 무겁지만 방어성능이 뛰어납니다. <br><br>
 프로그램은 오픈소스이며 비상업적, 상업적 용도로 사용가능하지만 재배포는 금지됩니다. <br><br>
 실행 가능 운영체제 : Ubuntu 16.04 LTS 이상 <br><br>
