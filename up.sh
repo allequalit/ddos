@@ -56,7 +56,7 @@ cat /etc/ddos/rules.v4 >> /etc/iptables/rules.v4;
 
 crontab /etc/ddos/crontab 
 
-# O**, 알*** 클***, re*****es*** IP 주소에 블랙홀라우팅을 적용했습니다.
+# O**, 알*** 클***, re*****es*** IP 대역은 블랙홀라우팅을 적용합니다.
 
 reboot;
 
