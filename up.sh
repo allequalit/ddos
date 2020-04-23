@@ -28,7 +28,7 @@ cp /etc/sysctl.conf /etc/backup/;cp /etc/iptables/rules.v4 /etc/backup/;
 # 백업 폴더 위치 : /etc/backup/
 
 git clone https://github.com/allequalit/ddos.git;
-mv dp /etc/;
+mv ddos /etc/;
 
 # 마냐디완s PRO 소스코드 다운로드
 
