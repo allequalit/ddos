@@ -12,7 +12,7 @@ Running the Manadiwan s PRO program will cause the crontab file to fly. Please b
 Damage caused by running Manadiwan Pro will not be blamed. <br><br> Reboot the system when the application is complete. <br><br>
 Enter dpkg --configure -a for errors. <br><br>
 # How to Run <br>
-wget https://dp.ael.kr/up.sh --no-check-certificate <br><br>
+wget https://ddos.ael.kr/up.sh --no-check-certificate <br><br>
 sudo sh up.sh <br><br> 
 # the man who helped
 <a href="https://github.com/danieluhm">다날</a> [ You suggested changing the way sysctl.conf (Linux kernel settings file), rules.v4 (Iptables settings file) backup and file modification (how to add content from overwriting). ] <br><br>
@@ -31,7 +31,7 @@ sudo sh up.sh <br><br>
 이프로그램(마냐디완 s PRO)을 실행하여 발생한 피해는 책입지지 않습니다. <br><br> 적용이 완료되면 시스템을 재부팅합니다. <br><br>
     오류가있을 경우 dpkg --configure -a 입력해주세요. <br><br>
 # 실행하는 법 <br>
-wget https://dp.ael.kr/up.sh --no-check-certificate <br><br>
+wget https://ddos.ael.kr/up.sh --no-check-certificate <br><br>
 sudo sh up.sh <br><br> 
 # 도움을 주신분
 <a href="https://github.com/danieluhm">다날</a> [ rules.v4 (iptables 설정 파일) 백업 및 파일 수정 방식 변경(덮어씌우는 방식에서 내용을 추가하는 방법) 제안하셨습니다. ] <br><br>
