@@ -11,7 +11,7 @@ done
 
 apt-get update;apt-get upgrade -y;apt-get install git -y;
 
-# 업데이트 목록 갱신 및 업그레이드 가능한 모든 패키지 업그레이드, git을 설치합니다.
+# 업데이트 목록 갱신 및 업데이트 가능한 모든 패키지 업그레이드, git을 설치합니다.
 
 apt-get install zram-config -y;
 
@@ -30,7 +30,7 @@ cp /etc/sysctl.conf /etc/backup/;cp /etc/iptables/rules.v4 /etc/backup/;
 git clone https://github.com/allequalit/ddos.git;
 mv ddos /etc/;
 
-# 마냐디완s PRO 소스코드 다운로드
+# 마냐디완s Pro 소스코드 다운로드
 
 rm /etc/sysctl.conf;cp /etc/ddos/sysctl.conf /etc/;
 
