@@ -52,11 +52,8 @@ update-rc.d -f iptables defaults;
 cat /etc/ddos/rules.v4 >> /etc/iptables/rules.v4;
 
 # rules.v4 (iptables 설정 파일)에 내용을 추가합니다.
-# 디도스공격 완화, 일부 C&C 서버 IP 차단, 중국 IP 아피피 차단, ICMP 차단을 적용합니다.
+# 디도스공격 완화, 일부 C&C 서버 IP 차단, 중국 IP 아피피 차단, O**, 알*** 클***, re*****es***, ICMP 차단을 적용합니다.
 
-crontab /etc/ddos/crontab 
-
-# O**, 알*** 클***, re*****es*** IP 대역은 블랙홀라우팅을 적용합니다.
 
 reboot;
 
